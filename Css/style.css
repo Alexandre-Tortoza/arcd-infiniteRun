@@ -10,20 +10,32 @@
 /* -------------------- */
 body{
     background-color:var(--color01);
-    display: flex;
-    justify-content: center;
 
 }
+.arcade{
+    display: flex;
+    flex-wrap: wrap;
+}
 .game{
-    margin: 1rem;
     background-color: var(--color02);
     width: 80%;
+<<<<<<< Updated upstream
+=======
+    margin: auto;
+    display: flex;
+
 }
+
+.arcade__Menu{
+    background-color: var(--color04);
+>>>>>>> Stashed changes
+}
+
 /* -------------------- */
 
 
 .game__board{
-width: 80%;
+width: 100%;
 height: 500px;
 border: 5px solid var(--color05);
 margin: auto;
